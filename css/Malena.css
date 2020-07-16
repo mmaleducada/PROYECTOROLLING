@@ -1,3 +1,355 @@
-.header {
-    position: fixed;
+
+
+.parallax {
+    /* The image used */
+    background-image: url("./imagenes/fc69a1f94c65b40563357effdf0c2e6a.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .espacio-estilo {
+    /* The image used */
+    background-image: url("./imagenes/fc69a1f94c65b40563357effdf0c2e6a.jpg");
+  
+    /* Set a specific height */
+    height: 100px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .contact {
+    /* The image used */
+    background-image: url("./imagenes/fc69a1f94c65b40563357effdf0c2e6a.jpg");
+  
+    /* Set a specific height */
+    height: 70px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+.redes-sociales {
+  position: fixed;
+  right: 0;
+  top: 300px;
+  z-index: 2000;
+}
+
+.redes-sociales ul {
+  list-style: none;
+}
+
+.redes-sociales ul li a {
+  display: inline-block;
+  color: white;
+  background: #000 ;
+  padding: 10px 15px;
+  text-decoration: none ;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.redes-sociales ul li .icon-facebook {
+  background: #3b5898c4;
+}
+
+.redes-sociales ul li .icon-twitter {
+  background: #00acf0c0 ;
+}
+
+.redes-sociales ul li .icon-instagram {
+  background: rgba(216, 24, 98, 0.685);
+}
+
+.redes-sociales ul li .icon-pinterest {
+  background: #ae181fc2;
+}
+
+.redes-sociales ul li .icon-mail2 {
+  background: #666666ca ;
+}
+
+.redes-sociales ul li a:hover {
+  background: #000;
+}
+
+footer {
+  color: white;
+  text-align: right;
+  border: white double;
+  padding: 0;
+}
+
+.container-fluid {
+  height: 90%;
+  width: 100%;
+}
+
+.carousel-inner img {
+  height: 350px;
+}
+
+
+
+.site-text_container {
+  max-width: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+h3 {
+  max-width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 40px;
+  font-style: normal;
+  color: rgb(250, 241, 241);
+  line-height: normal;
+  font-weight: 400;
+  text-decoration: none;
+  padding-bottom: 24px;
+  letter-spacing: .5px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border-top-width: 1px;
+  border-top-style: solid;
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  padding-top: 34px;
+  margin: 0 auto;
+}
+
+h3 a:link, h3 a:active, h3 a:visited {
+  color: rgba(17,17,17,1);
+  opacity: .69;
+}
+
+a {
+  outline: none;
+  -moz-outline-style: none;
+  text-decoration: none;
+  color: rgba(253, 253, 253, 0.835);
+}
+
+h3 a:link, h3 a:active, h3 a:visited {
+  color: rgb(19, 2, 2);
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+}
+
+.small-amp-container {
+  max-width: 1240px;
+  display: block;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  background-color: rgba(241, 146, 146, 0.431);
+  padding: 0;
+  margin: 12px auto 68px;
+}
+
+.amp-small-photo-all {
+  display: inline-table;
+  color: rgb(3, 3, 3);
+  box-sizing: border-box;
+  margin: 23px 6px 3px;
+}
+
+.amp-small-photo {
+  display: inline-block;
+  color: rgb(3, 3, 3);
+  width: auto;
+  width: auto;
+}
+
+.amp-small-photo-info {
+  font-family: 'Dosis',sans-serif;
+  color: rgb(3, 3, 3);
+  font-size: 14px;
+  opacity: .7;
+}
+
+a {
+  outline: none;
+  -moz-outline-style: none;
+  text-decoration: none;
+  color: rgba(204,204,204,0.7);
+}
+
+.img-amp-small-circle {
+  width: 164px;
+  height: 164px;
+  border-radius: 50%;
+  border: 3px solid rgba(68,68,68,1);
+  margin-bottom: 12px;
+  transition: all .3s ease-in-out;
+  background-color: rgba(68,68,68,1);
+}
+
+.img-responsive {
+  max-width: 180px;
+  height: auto;
+}
+
+.lazy {
+  width: 180px;
+  height: 180px;
+}
+
+.amp-small-photo-info {
+  font-family: 'Dosis',sans-serif;
+  color: rgb(3, 3, 3);
+  font-size: 14px;
+  opacity: .7;
+}
+
+.amp-small-photo-info p {
+  line-height: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.small-amp-container p {
+  padding: 20px 0 32px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.amp-small-photo-info a:link, .amp-small-photo-info a:active, .amp-small-photo-info a:visited, .amp-small-photo-info a:hover {
+  color: #E00;
+  opacity: 1;
+}
+
+a {
+  outline: none;
+  -moz-outline-style: none;
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.amp-small-photo-info strong {
+  color: rgb(255, 253, 253);
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.amp-small-photo-info strong {
+  display: block;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.acerca {
+  left: 0;
+}
+
+.contacto-sus {
+  background: rgb(0, 0, 0);
+}
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
+
+hr{
+	background: white;	
+}
+
+.contact-form{
+	background:rgba(0,0,0, .6);
+	color:white;
+	margin-top: 100px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px 3px grey;
+}
+    
+.fondo-contacto {
+  background-image: url(../imagenes/fondo\ contacto3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fondo-estilos {
+  background-image: url(../imagenes/estilos1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.quien {
+  background-image: url(../imagenes/quienes/woman-in-black-long-sleeve-shirt-4123786.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.part--layout-overview .panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vw 10vw 5vw;
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.careers--content .section--value-slide .part--layout-overview .panel h4 {
+  color: #F5F5F5;
+}
+
+.part--layout-overview .panel .title h4 {
+  font-size: calc(16px + 3 * ((100vw - 1280px) / 1280));
+  color: #F5F5F5;
+}
+
+
+
+
+
